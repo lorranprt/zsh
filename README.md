@@ -41,7 +41,7 @@ This repository is private and intended for internal development and commercial 
 ## System Architecture
 
 The application follows a clean MVC structure with clear separation of concerns.
-
+```
 app/
 ├── Models
 ├── Http/
@@ -52,7 +52,7 @@ app/
 ├── Policies
 ├── Events
 ├── Listeners
-
+```
 
 ---
 
@@ -112,6 +112,8 @@ Each Area:
 - Controls ticket visibility for vendors
 
 ### Example Structure
+
+```
 Area A
 ├── Vendor 1
 ├── Vendor 2
@@ -120,7 +122,7 @@ Area A
 Area B
 ├── Vendor 4
 └── Vendor 5
-
+```
 
 ---
 
