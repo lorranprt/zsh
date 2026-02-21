@@ -132,7 +132,7 @@
 
         <div class="cards">
 
-            <a href="/comunidade" class="card-link">
+            <a href="{{ route('comunidade') }}" class="card-link">
                 <div class="card">
                     <div class="card-number">01</div>
                     <h3>Comunidade</h3>
@@ -156,7 +156,7 @@
                 </div>
             </a>
 
-            <a href="/loja" class="card-link">
+            <a href="{{ route('loja') }}" class="card-link">
                 <div class="card">
                     <div class="card-number">03</div>
                     <h3>Loja Oficial</h3>
@@ -167,7 +167,7 @@
                 </div>
             </a>
 
-            <a href="/fivem" class="card-link">
+            <a href="{{ route('fivem') }}" class="card-link">
                 <div class="card">
                     <div class="card-number">04</div>
                     <h3>FiveM</h3>
@@ -184,5 +184,6 @@
 </main>
 
 <footer>@include('partials.footer')</footer>
+
 </body>
 </html>

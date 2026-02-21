@@ -33,6 +33,9 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 Route::view('/digital', 'pages.digital')->name('digital');
+Route::view('/comunidade', 'pages.comunidade')->name('comunidade');
+Route::view('/loja', 'pages.loja')->name('loja');
+Route::view('/fivem', 'pages.fivem')->name('fivem');
 
 /*
 |--------------------------------------------------------------------------

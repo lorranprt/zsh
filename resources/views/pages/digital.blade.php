@@ -184,20 +184,56 @@
     <div class="products">
 
         <div class="product-card">
-            <h3>Otimização Premium</h3>
-            <div class="price">R$ 149,90</div>
+            <h3>Otimização Basica</h3>
+            <div class="price">R$ 40,00</div>
             <button onclick="openModal()">Ver detalhes</button>
         </div>
 
         <div class="product-card">
-            <h3>Identidade Visual</h3>
-            <div class="price">R$ 249,90</div>
+            <h3>Pacote Streamer #1</h3>
+            <div class="price">R$ 149,90</div>
             <button onclick="openModal()">Ver detalhes</button>
         </div>
 
         <div class="product-card">
             <h3>Edição Profissional</h3>
             <div class="price">R$ 89,90</div>
+            <button onclick="openModal()">Ver detalhes</button>
+        </div>
+        
+        <div class="product-card">
+            <h3>Otimização Premium</h3>
+            <div class="price">R$ 149,00</div>
+            <button onclick="openModal()">Ver detalhes</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Pacote Streamer #2</h3>
+            <div class="price">R$ 249,90</div>
+            <button onclick="openModal()">Ver detalhes</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Edição Highlights</h3>
+            <div class="price">R$ 30,00</div>
+            <button onclick="openModal()">Ver detalhes</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Otimização Personalizada</h3>
+            <div class="price">R$ 319,00</div>
+            <button onclick="openModal()">Ver detalhes</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Pacote Streamer #3</h3>
+            <div class="price">R$ 249,90</div>
+            <button onclick="openModal()">Ver detalhes</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Edição Cortes</h3>
+            <div class="price">R$ 40,00</div>
             <button onclick="openModal()">Ver detalhes</button>
         </div>
 
